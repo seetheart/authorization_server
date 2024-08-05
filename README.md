@@ -10,3 +10,5 @@ Further Improvements
 2) App can have many-to-many relationship using has_many through using an intermediate table app_role_mappings which will
    contain a specific role in a specific application becuase multiple applications can have same roles.
 3) A many-to-many relation can be made between app_role_mappings table permissions using has_and_belongs_to_many.
+4) An API Gateway should be implemented to filter the authenticated request. Mainly API Gateway should be used to
+   as an authentication service, load balancer and reverse proxy.
